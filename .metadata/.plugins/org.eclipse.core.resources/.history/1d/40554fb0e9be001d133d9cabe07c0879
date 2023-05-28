@@ -1,0 +1,19 @@
+package Elements;
+
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class TextBox_01 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.edge.driver", "F:\\Java Programs\\TOOLS_QA\\Drivers\\msedgedriver.exe");
+		EdgeDriver driver = new EdgeDriver();
+		
+		driver.get("https://demoqa.com/");
+		
+		driver.manage().window().maximize();
+		
+		
+	}
+
+}
